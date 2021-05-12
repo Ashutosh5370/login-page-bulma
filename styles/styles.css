@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #4e0280;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #4e0280), color-stop(99%, #c611b9), to(#ff00f1));
+  background: linear-gradient(90deg, #4e0280 1%, #c611b9 99%, #ff00f1 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 112.0rem;
+  padding: 0 2.0rem;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-box {
+  margin-top: 110px;
+  background: #ffffff;
+  border-radius: 40px;
+  width: 70%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login-box .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.login-box .logo img {
+  width: 70%;
+}
+
+.login-box .login-form {
+  padding: 100px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.login-box .login-form input {
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-box .login-form input:focus {
+  border-color: #636e72;
+  outline: none;
+}
+
+.login-box .login-form .title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.login-box .login-form .login-btn {
+  margin: 20px 0px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #5fce9f;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.login-box .login-form .login-btn:hover {
+  background: #00ff95;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.login-box .login-form .login-btn:active {
+  background: #00ff95;
+}
+
+.login-box .login-form .forgot-pasword {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.login-box .login-form .forgot-pasword a {
+  text-decoration: none;
+  color: #24c381;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.login-box .login-form .create-account {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.login-box .login-form .create-account a {
+  text-decoration: none;
+  color: #24c381;
+  font-weight: 700;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(78, 2, 128);
+    background: linear-gradient(90deg, rgba(78, 2, 128, 1) 1%, rgba(198, 17, 185, 1) 99%, rgba(255, 0, 241, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 112.0rem;
+    padding: 0 2.0rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    margin-top: 110px;
+    background: #ffffff;
+    border-radius: 40px;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .login-form {
+        padding: 100px 30px;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        input {
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        input:focus {
+            border-color: #636e72;
+            outline: none;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+
+        .login-btn {
+            margin: 20px 0px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            background: #5fce9f;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 20px;
+
+            &:hover {
+                background:  #00ff95;
+                transition: all 0.3s ease;
+            }
+
+            &:active {
+                background:  #00ff95;
+            }
+
+        }
+
+        
+        .forgot-pasword {
+            margin: 20px 0px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: #24c381;
+                font-weight: 700;
+                margin-left: 5px;
+            }
+
+        }
+
+        .create-account {
+            margin: 20px 0px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: #24c381;
+                font-weight: 700;
+                margin-left: 5px;
+            }
+        }
+
+
+    }
+
+}
